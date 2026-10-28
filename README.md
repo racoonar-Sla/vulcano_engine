@@ -117,13 +117,13 @@ pip install -r requirements.txt
 
 ### 4\. Inicializar LocalStack con Docker Desktop
 
-Asegúrate de tener **Docker Desktop** activo y ejecuta:
+Nos aseguramos de tener **Docker Desktop** activo y ejecuta:
 
 ```
 docker compose up -d
 
 ```
 
-Verifica la salud del servicio SQS emulado en: `http://localhost:4566/_localstack/health`
+Verificamos la salud del servicio SQS emulado en: `http://localhost:4566/_localstack/health`
 
 ---
