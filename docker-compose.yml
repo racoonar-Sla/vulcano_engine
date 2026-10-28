@@ -1,0 +1,12 @@
+services:
+  localstack:
+    container_name: vulcano_localstack
+    image: localstack/localstack:3.4.0
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      - SERVICES=sqs
+      - DEBUG=1
+    volumes:
+      - "${LOCALSTACK_VOLUME_DIR:-./.localstack}:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
