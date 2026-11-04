@@ -4,6 +4,11 @@ Este repositorio contiene la implementación oficial de **VulcanoEventEngine**, 
 
 La arquitectura desacopla la recepción y la emisión de eventos utilizando **AWS SQS** emulado localmente con **LocalStack** en el puerto `4566` (`http://localhost:4566`). El sistema garantiza alta disponibilidad, mitigación de ataques de tiempo (*Timing Attacks*) y retransmisión (*Replay Attacks*), tolerancia a picos masivos de tráfico y desvío automático de mensajes venenosos a la **Dead Letter Queue (DLQ)** (`vulcano-events-dlq`).
 
+**Defensa del Proyecto**
+`https://drive.google.com/file/d/1tuW3S6krDyXzf4Pvr8PhPlGcfwzoWw8b/view`
+
+
+
 ---
 
 ## 👥 Estructura del Equipo y Distribución de Roles
